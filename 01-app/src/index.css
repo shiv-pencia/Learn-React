@@ -1,0 +1,62 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+body{
+    background-color: rgb(24, 24, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.todo-item-text{
+    margin-left: 5px;
+    color: white;
+
+}
+.todo-container{
+    width: 300px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #313866;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+
+}
+.todo-header{
+ background-color: #FF7BBF;
+ color: black;
+ border-radius: 20px;
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #50409a;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+
+
+}
+.todo-btn{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #964ec2;
+}

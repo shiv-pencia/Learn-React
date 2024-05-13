@@ -7,12 +7,36 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: white;
+    
+}
+.input-div{
+    background-color: #4e5686;
+    border: rgb(215, 181, 117);
+    padding: 8px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 8px;
+    color: white;
     
 }
 .todo-item-text{
     margin-left: 5px;
     color: white;
 
+}
+ul{
+   
+    flex-flow: column;
+    align-items: first baseline;
+
+    justify-content: space-evenly;
+}
+ul button{
+    background-color: #FF7BBF;
+    margin: 10px;
+    
+    
 }
 .todo-container{
     width: 300px;
